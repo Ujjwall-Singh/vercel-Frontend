@@ -12,7 +12,7 @@ const FacultyForm = () => {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/review/filter", {
+      const response = await axios.post("https://vercel-backend-delta-ebon.vercel.app/api/review/filter", {
         teacherName,
         teacherDepartment,
         branchSemester,

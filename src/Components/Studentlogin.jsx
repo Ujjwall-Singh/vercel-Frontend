@@ -15,7 +15,7 @@ const Studentlogin = () => {
 
     try {
       // Updated endpoint to match the backend
-      const response = await axios.post('http://localhost:5000/api/login', {
+      const response = await axios.post('https://vercel-backend-delta-ebon.vercel.app/api/login', {
         email,
         password,
       });

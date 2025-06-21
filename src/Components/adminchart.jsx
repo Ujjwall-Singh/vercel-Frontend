@@ -8,7 +8,7 @@ const ReviewTable = () => {
         // Fetch the data from the backend
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/review');
+                const response = await axios.get('https://vercel-backend-delta-ebon.vercel.app/api/review');
                 const reviews = response.data;
 
                 // Calculate average rating for each category
