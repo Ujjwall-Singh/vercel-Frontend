@@ -18,7 +18,7 @@ const Signup = () => {
     }
 
     try {
-      const response = await axios.post('https://vercel-backend-delta-ebon.vercel.app/api/signup', {
+      const response = await axios.post('https://vercel-backend-s0ek.onrender.com/api/signup', {
         email,
         username,
         password,

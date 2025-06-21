@@ -13,7 +13,7 @@ const Facultylogin = () => {
   const handleLogin = async (e) => {
     e.preventDefault(); // Prevent default form submission
     try {
-      const response = await fetch('https://vercel-backend-delta-ebon.vercel.app/api/facultylogin', {
+      const response = await fetch('https://vercel-backend-s0ek.onrender.com/api/facultylogin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

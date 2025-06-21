@@ -50,7 +50,7 @@ const TeacherReviewForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://vercel-backend-delta-ebon.vercel.app/api/review', formData);
+            const response = await axios.post('https://vercel-backend-s0ek.onrender.com/api/review', formData);
             console.log(response.data.message);
             alert("Your Review submitted successfully!");  
         } catch (error) {
